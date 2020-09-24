@@ -14,8 +14,8 @@ def img_show(img, title='', str=''):
 
 def bilinear_resize_vectorized(image, height, width):
     """
-  `image` is a 2-D numpy array
-  `height` and `width` are the desired spatial dimension of the new 2-D array.
+  `image` is a 3-D numpy rgb array
+  `height` and `width` are the desired spatial dimension of the new 3-D array.
   """
     img_height, img_width = image.shape[0], image.shape[1]
 
